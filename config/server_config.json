@@ -1,0 +1,16 @@
+// logging
+// connection to online interface later on
+// threads
+// visualization
+// ssh 
+{
+    "logging": {
+        "level": "debug",
+        "block": "navigation_module"
+    },
+    
+    "network": {
+        "ros2_node_name": "robot_controller",
+        "master_uri": "http://localhost:11311"
+    }
+  }

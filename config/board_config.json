@@ -1,0 +1,18 @@
+// zephyr drivers,name
+// controller board (raspberry pi, esp32 etc)
+// connection type (bluetooth, wifi, usb)
+// logging
+{
+    "actuators": [
+      {
+        "name": "tower_pro_motor",
+        "type": "zephyr_pwm",
+        "driver": "tower_pro_motor_driver",
+        "pin": 12,  // GPIO pin connected to motor driver
+        "frequency": 50000,  // PWM frequency
+        "min_duty_cycle": 0,
+        "max_duty_cycle": 100
+      }
+    ]
+  }
+  
